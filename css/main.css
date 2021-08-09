@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(../img/logoIndex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color:snow;
+}
+.barraHead{
+    background-color:white;
+}
+.barraText{
+    margin: 5px;
+    color:black;
+    height: 50px;
+}
+#btnContactos{
+    position:fixed;
+    right: 10px;
+    top: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+.cntContenido{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+}
+.cntContenido a{
+    display: inline-block;
+    margin-top: 10px;
+}
+.btnNosotros{
+    font-size: 3em;
+    height: 2em;
+    background-color: transparent;
+    border:  solid white;
+    color:white;
+    border-radius: 5px;
+    transition: 300ms;
+    
+}
+.btnNosotros:hover{
+    color:black;
+    background-color: white;
+    
+
+}
+#next{
+    height: 70px;
+}
