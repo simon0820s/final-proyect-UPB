@@ -14,19 +14,34 @@ html{
     color:snow;
 }
 .barraHead{
+    height: 60px;
     background-color:white;
-}
-.barraText{
     margin: 5px;
-    color:black;
-    height: 50px;
+}
+.barraHead h1{
+    color: black;
+    padding: 7px;
+    font-family: 'Permanent Marker';
 }
 #btnContactos{
+    text-decoration: none;
     position:fixed;
+    border: solid black;
+    color: black;
+    background-color: transparent;
     right: 10px;
-    top: 10px;
+    top: 8px;
     padding: 2px;
     margin: 5px;
+    transition: 300ms;
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    font-family: 'Permanent Marker';
+}
+#btnContactos:hover{
+    background-color: black;
+    color:white;
 }
 .cntContenido{
     width: 200px;
@@ -41,19 +56,21 @@ html{
 .btnNosotros{
     font-size: 3em;
     height: 2em;
+    width: 6em;
     background-color: transparent;
     border:  solid white;
     color:white;
     border-radius: 5px;
     transition: 300ms;
+    font-family: 'Permanent Marker';
     
 }
 .btnNosotros:hover{
     color:black;
     background-color: white;
-    
 
 }
 #next{
     height: 70px;
+    margin-left: 80px
 }
