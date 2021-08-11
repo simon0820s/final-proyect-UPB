@@ -38,6 +38,7 @@ html{
     width: 140px;
     font-size: 20px;
     font-family: 'Permanent Marker';
+    cursor: pointer;
 }
 #btnContactos:hover{
     background-color: black;
@@ -63,6 +64,7 @@ html{
     border-radius: 5px;
     transition: 300ms;
     font-family: 'Permanent Marker';
+    cursor: pointer;
     
 }
 .btnNosotros:hover{
@@ -70,7 +72,8 @@ html{
     background-color: white;
 
 }
-#next{
+.next{
     height: 70px;
-    margin-left: 80px
+    margin-left: 80px;
+    filter: invert(100%) sepia(0%) saturate(7440%) hue-rotate(184deg) brightness(99%) contrast(98%);
 }
