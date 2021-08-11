@@ -76,4 +76,8 @@ html{
     height: 70px;
     margin-left: 80px;
     filter: invert(100%) sepia(0%) saturate(7440%) hue-rotate(184deg) brightness(99%) contrast(98%);
+    transition: 300ms;
+}
+.next:hover{
+    height: 85px;
 }
