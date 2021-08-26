@@ -44,40 +44,45 @@ html{
     background-color: black;
     color:white;
 }
-.cntContenido{
-    width: 200px;
-    margin: 0 auto;
+.cntTenebrio{
+    width: 700px;
+    margin: auto;
+    margin-top: 3%;
+}
+.imgTenebrio{
+    display:block;
+    width: 500px;
+    border-radius: 10px; 
+    margin:auto;
+}
+.cntTenebrio h1{
+    font-family:'Permanent Marker';
     text-align: center;
-    margin-top: 15%;
+    font-size: 50px;
+    margin-top: 20px;
 }
-.cntContenido a{
-    display: inline-block;
-    margin-top: 10px;
+.cntTenebrio p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans';
+    margin-top: 20px;
 }
-.btnNosotros{
-    font-size: 3em;
-    height: 2em;
-    width: 6em;
-    background-color: transparent;
-    border:  solid white;
-    color:white;
-    border-radius: 5px;
-    transition: 300ms;
-    font-family: 'Permanent Marker';
-    cursor: pointer;
-    
+.cntNext{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    height: 80px;
+    width:100%;
+    padding: 10px;
 }
-.btnNosotros:hover{
-    color:black;
-    background-color: white;
-
-}
-.next{
+.back{
+    position: fixed;
+    left: 20px;
     height: 70px;
-    margin-left: 80px;
     filter: invert(100%) sepia(0%) saturate(7440%) hue-rotate(184deg) brightness(99%) contrast(98%);
     transition: 300ms;
+    transform: scaleX(-1);
 }
-.next:hover{
-    height: 85px;
+.back:hover{
+    height: 85px ;
 }
