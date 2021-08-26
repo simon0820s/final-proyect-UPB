@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 html{
-    background-image: url(../img/logoIndex.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@ html{
     padding: 7px;
     font-family: 'Permanent Marker';
 }
-#btnMenu{
+#btnContactos{
     text-decoration: none;
     position:fixed;
     border: solid black;
@@ -40,7 +40,7 @@ html{
     font-family: 'Permanent Marker';
     cursor: pointer;
 }
-#btnMenu:hover{
+#btnContactos:hover{
     background-color: black;
     color:white;
 }
