@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color:snow;
+}
+.barraHead{
+    height: 60px;
+    background-color:white;
+    margin: 5px;
+}
+.barraHead h1{
+    color: black;
+    padding: 7px;
+    font-family: 'Permanent Marker';
+}
+#btnMenu{
+    text-decoration: none;
+    position:fixed;
+    border: solid black;
+    color: black;
+    background-color: transparent;
+    right: 10px;
+    top: 8px;
+    padding: 2px;
+    margin: 5px;
+    transition: 300ms;
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    font-family: 'Permanent Marker';
+    cursor: pointer;
+}
+#btnMenu:hover{
+    background-color: black;
+    color:white;
+}
+.content{
+    display: block;
+    width:100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 7%;
+    background-color:blue;
+}
+.content img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.yean{
+    height: 400px;
+    width: 400px;
+    background-color:yellow;
+}
+.yean img{
+    display: block;
+    margin: 0 auto;
+}
+.yean h1{
+    text-align: center;
+}
+.yo{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-color:red;
+}
+.yo img{
+    display: block;
+    margin: auto;
+}
+.yo h1{
+    text-align: center;
+}
+.miguel{
+    background-color: green;
+}
